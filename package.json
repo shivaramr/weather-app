@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "next build",
-    "deploy": "npm run build && gh-pages -b master -d build",
-    "lint": "next lint"
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
