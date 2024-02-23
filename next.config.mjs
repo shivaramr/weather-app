@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  images: {
+    domains: ['shivaramr.github.io/'],
+  },
   experimental: {
   appDir: false,
   externalDir: true | {
