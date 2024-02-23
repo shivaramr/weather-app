@@ -1,10 +1,4 @@
 /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   basePath: "/weather-app/",
-// };
+const nextConfig = {};
 
-export default {
-  basePath: '/weather-app',
-}
-
-// export default nextConfig;
+export default nextConfig;
