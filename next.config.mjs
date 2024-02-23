@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/weather-app/",
-};
+// const nextConfig = {
+//   basePath: "/weather-app/",
+// };
 
-export default nextConfig;
+module.exports = {
+  basePath: '/weather-app',
+}
+
+// export default nextConfig;
