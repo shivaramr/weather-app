@@ -3,7 +3,7 @@
 //   basePath: "/weather-app/",
 // };
 
-module.exports = {
+export default {
   basePath: '/weather-app',
 }
 
