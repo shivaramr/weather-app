@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['shivaramr.github.io'],
   },
+  staticPageGenerationTimeout: 2500,
 };
 
 export default nextConfig;
