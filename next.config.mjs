@@ -4,14 +4,6 @@ const nextConfig = {
   images: {
     domains: ['shivaramr.github.io/'],
   },
-  experimental: {
-  appDir: false,
-  externalDir: true | {
-        enabled: true,
-        silent: true,
-   },
-},
-  disableExperimentalFeaturesWarning: true,
 };
 
 export default nextConfig;
