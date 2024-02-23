@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
   appDir: true,
 },
+  disableExperimentalFeaturesWarning: true,
 };
 
 export default nextConfig;
