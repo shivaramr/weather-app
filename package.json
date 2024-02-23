@@ -2,10 +2,13 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shivaramr.github.io/weatherApp",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d dist",
     "lint": "next lint"
   },
   "dependencies": {
