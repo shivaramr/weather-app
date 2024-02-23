@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   images: {
-    domains: ['shivaramr.github.io/'],
+    domains: ['shivaramr.github.io'],
   },
 };
 
