@@ -1,12 +1,11 @@
 "use client";
-import Image from "next/image";
-import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import FilterDramaIcon from "@mui/icons-material/FilterDrama";
 import DehazeIcon from "@mui/icons-material/Dehaze";
-import VapingRoomsIcon from "@mui/icons-material/VapingRooms";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import FilterDramaIcon from "@mui/icons-material/FilterDrama";
+import VapingRoomsIcon from "@mui/icons-material/VapingRooms";
+import styles from "./page.module.css";
 
 let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
 
