@@ -33,6 +33,11 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npx next build
 
+      - name: List files
+        run: |
+          ls -la   # Command to list all files and folders
+        shell: bash
+
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
