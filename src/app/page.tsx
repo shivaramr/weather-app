@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import DehazeIcon from "@mui/icons-material/Dehaze";
@@ -52,16 +53,16 @@ export default function Home() {
         <div className={styles.row}>
           <div className={styles.section1}>
             <div className={styles.section11}>
-              {placeData.weather[0].main === "Clouds" && (
+              {placeData?.weather[0].main === "Clouds" && (
                 <FilterDramaIcon className={styles.weathericon} />
               )}
-              {placeData.weather[0].main === "Haze" && (
+              {placeData?.weather[0].main === "Haze" && (
                 <DehazeIcon className={styles.weathericon} />
               )}
-              {placeData.weather[0].main === "Smoke" && (
+              {placeData?.weather[0].main === "Smoke" && (
                 <VapingRoomsIcon className={styles.weathericon} />
               )}
-              {placeData.weather[0].main === "Clear" && (
+              {placeData?.weather[0].main === "Clear" && (
                 <WbSunnyIcon className={styles.weathericon} />
               )}
 
