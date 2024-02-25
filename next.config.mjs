@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/weather-app",
+  // basePath: "/weather-app",
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
 };
