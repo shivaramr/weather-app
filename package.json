@@ -2,7 +2,6 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shivaramr.github.io/weather-app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
