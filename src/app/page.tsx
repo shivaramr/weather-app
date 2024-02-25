@@ -6,7 +6,7 @@ import DehazeIcon from "@mui/icons-material/Dehaze";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import FilterDramaIcon from "@mui/icons-material/FilterDrama";
 import VapingRoomsIcon from "@mui/icons-material/VapingRooms";
-import styles from "./page.module.css";
+import styles from "../app/page.module.css";
 
 let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
 
