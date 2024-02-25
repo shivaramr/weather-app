@@ -12,7 +12,7 @@ Kindly requesting to change the API key, its free and you can get it at https://
 ## Features
 - Weather of the searched location
 - Present time
-- Temperature, wind speed, Pressure, Visibility etc..
+- Temperature, wind speed, Pressure, Visibility etc...
 - Responsive layout for various screen sizes.
 
 ## Technologies Used
