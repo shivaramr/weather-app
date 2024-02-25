@@ -23,6 +23,8 @@ export default function Home() {
 
     if (place && place.length > 0) {
       try {
+        console.log({WEATHER_API_KEY});
+        
         let url = `https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=${WEATHER_API_KEY}`;
         let res = await fetch(url);
         let data = await res.json();
