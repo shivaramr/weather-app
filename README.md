@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather App
+![Weather App Screenshot](/public/weather-app.jpg)
 
-## Getting Started
+The Weather App website is a web application built using Nexttjs that utilizes open weather API to generate weather summary and information of the location / place entered in the input field available in the screen. By default, it first shows the weather details of Kochi.
 
-First, run the development server:
+You can access this website at: https://weather-app-gold-beta.vercel.app/
+You can have a look at the demo of this website at: <!-- https://www.youtube.com/watch?v=kezxCGWxxIs -->
+This website was developed refering to the tutorial: https://www.youtube.com/watch?v=-xjm3eaBELQ
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Kindly requesting to change the API key, its free and you can get it at https://openweathermap.org/api
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- Weather of the searched location
+- Present time
+- Temperature, wind speed, Pressure, Visibility etc..
+- Responsive layout for various screen sizes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- [NEXT.JS](https://nextjs.org/): The React Framework for the Web.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
+To install and run this Weather App website locally, follow these steps:
+1. Clone the repository:
+    ### `git clone https://github.com/shivaramr/weather-app.git`
+2. Navigate to the project directory:
+    ### `cd weather-app`
+3. Install the dependencies:
+    ### `npm install`
+4. Start the development server:
+    ### `npm run dev`
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+To use the Weather App website, follow these steps:
+1. Open a web browser and navigate to `https://weather-app-gold-beta.vercel.app/` or 'http://localhost:3000' (if you are accessing the website locally)
+2. Enter the name of the place that you want to check the weather details.
+3. Click on the search button at the end of the input field
+4. View the weather summary on the website.
