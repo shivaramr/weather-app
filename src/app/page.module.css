@@ -13,7 +13,7 @@
     overflow: hidden;
     border: none;
     align-items: center;
-    margin: 8px;
+    margin: 0.5rem;
   }
 
   .searchbar:hover {
@@ -22,18 +22,18 @@
   }
 
   .searchbar input {
-    width: 300px;
-    padding: 20px;
+    width: 18.75rem;
+    padding: 1.25rem;
     background-color: transparent;
     border: none;
     outline: none;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .searchbar button {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     background-color: transparent;
     border: none;
     outline: none;
@@ -51,33 +51,33 @@
     .section1 {
       background-color: rgba(0, 0, 0, 0.358);
       border-radius: 10px;
-      padding: 20px;
+      padding: 1.25rem;
       width: 40%;
-      margin: 8px;
+      margin: 0.5rem;
 
       .section11 {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 1.25rem;
 
         .weathericon {
-          width: 100px;
-          height: 100px;
+          width: 6.25rem;
+          height: 6.25rem;
           color: white;
         }
 
         .temp {
-          font-size: 30px;
+          font-size: 1.875rem;
           color: rgb(255, 234, 150);
         }
 
         .city {
-          font-size: 30px;
+          font-size: 1.875rem;
           color: rgb(221, 221, 221);
         }
 
         .weathertype {
-          font-size: 40px;
+          font-size: 2.5rem;
           color: rgb(221, 221, 221);
         }
 
@@ -95,24 +95,24 @@
     .timediv {
       background-color: rgba(0, 0, 0, 0.358);
       border-radius: 10px;
-      padding: 20px;
+      padding: 1.25rem;
       width: 40%;
-      margin: 8px;
+      margin: 0.5rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
 
       .time {
-        font-size: 60px;
+        font-size: 3.75rem;
         color: rgb(248, 255, 186);
 
-        @media (min-width: 595px) and (max-width: 686px) {
-          font-size: 54px;
+        @media (min-width: 595px) and (max-width: 690px) {
+          font-size: 3.375rem;
         }
 
         @media (max-width: 342px) {
-          font-size: 48px;
+          font-size: 3rem;
         }
       }
     }
@@ -146,15 +146,15 @@
       width: 45%;
       display: flex;
       justify-content: space-between;
-      margin: 8px;
+      margin: 0.5rem;
 
       .head1 {
-        font-size: 15px;
+        font-size: 1rem;
         color: white;
       }
 
       .head2 {
-        font-size: 25px;
+        font-size: 1.5rem;
         color: rgb(240, 255, 141);
       }
 
@@ -162,7 +162,7 @@
         width: 100%;
 
         .head2 {
-          font-size: 14px;
+          font-size: 1rem;
         }
       }
     }
