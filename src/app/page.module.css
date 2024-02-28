@@ -14,6 +14,7 @@
     border: none;
     align-items: center;
     margin: 0.5rem;
+    transition: background-color 0.2s ease-in, color 0.3s ease-out;
   }
 
   .searchbar:hover {
@@ -54,6 +55,7 @@
       padding: 1.25rem;
       width: 40%;
       margin: 0.5rem;
+      transition: background-color 0.2s ease-in, color 0.3s ease-out;
 
       .section11 {
         display: flex;
@@ -102,6 +104,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      transition: background-color 0.2s ease-in, color 0.3s ease-out;
 
       .time {
         font-size: 3.75rem;
@@ -141,6 +144,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    transition: background-color 0.2s ease-in, color 0.3s ease-out;
 
     .section21 {
       width: 45%;
